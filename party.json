@@ -1,0 +1,182 @@
+
+{
+    "party": [
+      {
+        "name": "Arin Swiftblade",
+        "race": "Elf",
+        "class": "Rogue",
+        "level": 5,
+        "xp": 6500,
+        "nextLevel": 8000,
+        "hitPoints": 38,
+        "AC": 15,
+        "movement": "30ft",
+        "skills": ["Stealth", "Acrobatics", "Perception"],
+        "spells": {
+          "level1": ["Disguise Self", "Charm Person"],
+          "level2": ["Invisibility", "Mirror Image"]
+        },
+        "attacks": [
+          {
+            "name": "Dagger",
+            "damage": "1d4+3",
+            "attackModifier": "+6"
+          },
+          {
+            "name": "Shortbow",
+            "damage": "1d6+3",
+            "attackModifier": "+6"
+          }
+        ],
+        "inventory": [
+          {"item": "Dagger", "quantity": 2},
+          {"item": "Shortbow", "quantity": 1},
+          {"item": "Lockpicks", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Theodore The Stoutheart",
+        "race": "Dwarf",
+        "class": "Cleric",
+        "level": 4,
+        "xp": 4500,
+        "nextLevel": 6000,
+        "hitPoints": 42,
+        "AC": 18,
+        "movement": "25ft",
+        "skills": ["Medicine", "Insight", "History"],
+        "spells": {
+          "level1": ["Cure Wounds", "Shield of Faith"],
+          "level2": ["Lesser Restoration", "Hold Person"]
+        },
+        "attacks": [
+          {
+            "name": "Warhammer",
+            "damage": "1d8+4",
+            "attackModifier": "+5"
+          }
+        ],
+        "inventory": [
+          {"item": "Warhammer", "quantity": 1},
+          {"item": "Healing Potion", "quantity": 3},
+          {"item": "Holy Symbol", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Lyra Lowshadow",
+        "race": "Half-Elf",
+        "class": "Wizard",
+        "level": 6,
+        "xp": 9000,
+        "nextLevel": 12000,
+        "hitPoints": 28,
+        "AC": 12,
+        "movement": "30ft",
+        "skills": ["Arcana", "Investigation", "Nature"],
+        "spells": {
+          "level1": ["Magic Missile", "Shield"],
+          "level2": ["Misty Step", "Scorching Ray"],
+          "level3": ["Fireball", "Counterspell"]
+        },
+        "attacks": [
+          {
+            "name": "Firebolt",
+            "damage": "1d10",
+            "attackModifier": "+6"
+          }
+        ],
+        "inventory": [
+          {"item": "Spellbook", "quantity": 1},
+          {"item": "Wand", "quantity": 1},
+          {"item": "Alchemist's Supplies", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Gorim of the Iron Mountains",
+        "race": "Human",
+        "class": "Fighter",
+        "level": 5,
+        "xp": 7000,
+        "nextLevel": 8000,
+        "hitPoints": 50,
+        "AC": 16,
+        "movement": "30ft",
+        "skills": ["Athletics", "Intimidation", "Survival"],
+        "spells": {},
+        "attacks": [
+          {
+            "name": "Greatsword",
+            "damage": "2d6+4",
+            "attackModifier": "+7"
+          }
+        ],
+        "inventory": [
+          {"item": "Greatsword", "quantity": 1},
+          {"item": "Chain Mail", "quantity": 1},
+          {"item": "Rations", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Eldrin Starbreeze",
+        "race": "Gnome",
+        "class": "Bard",
+        "level": 4,
+        "xp": 4800,
+        "nextLevel": 6000,
+        "hitPoints": 31,
+        "AC": 14,
+        "movement": "25ft",
+        "skills": ["Performance", "Persuasion", "Deception"],
+        "spells": {
+          "level1": ["Healing Word", "Vicious Mockery"],
+          "level2": ["Shatter", "Lesser Restoration"]
+        },
+        "attacks": [
+          {
+            "name": "Rapier",
+            "damage": "1d8+2",
+            "attackModifier": "+4"
+          }
+        ],
+        "inventory": [
+          {"item": "Lute", "quantity": 1},
+          {"item": "Rapier", "quantity": 1},
+          {"item": "Potion of Invisibility", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Valis",
+        "race": "Tiefling",
+        "class": "Warlock",
+        "level": 5,
+        "xp": 7500,
+        "nextLevel": 10000,
+        "hitPoints": 32,
+        "AC": 13,
+        "movement": "30ft",
+        "skills": ["Arcana", "Deception", "Intimidation"],
+        "spells": {
+          "level1": ["Eldritch Blast", "Hex"],
+          "level2": ["Darkness", "Misty Step"],
+          "level3": ["Counterspell", "Fly"]
+        },
+        "attacks": [
+          {
+            "name": "Eldritch Blast",
+            "damage": "1d10",
+            "attackModifier": "+7"
+          },
+          {
+            "name": "Quarterstaff",
+            "damage": "1d6+2",
+            "attackModifier": "+4"
+          }
+        ],
+        "inventory": [
+          {"item": "Quarterstaff", "quantity": 1},
+          {"item": "Component Pouch", "quantity": 1},
+          {"item": "Amulet", "quantity": 1}
+        ]
+      }
+    ]
+  }
